@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Car::Add(int):Car.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sum">
+            </PersistentString>
+            <PersistentString
+               value = "COUNT">
+            </PersistentString>
+            <PersistentString
+               value = "car_size">
+            </PersistentString>
+            <PersistentString
+               value = "num_1">
+            </PersistentString>
+            <PersistentString
+               value = "Path">
+            </PersistentString>
+            <PersistentString
+               value = "Path[temp_start][temp_back][i]">
+            </PersistentString>
+            <PersistentString
+               value = "vec_1">
+            </PersistentString>
+            <PersistentString
+               value = "num_3">
+            </PersistentString>
+            <PersistentString
+               value = "num_2">
+            </PersistentString>
+            <PersistentString
+               value = "vec_2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Car::Sub():Car.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "car_size">
+            </PersistentString>
+            <PersistentString
+               value = "*it">
+            </PersistentString>
+            <PersistentString
+               value = "vec_2[i].begin()">
+            </PersistentString>
+            <PersistentString
+               value = "vec_2">
+            </PersistentString>
+            <PersistentString
+               value = "vec_1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "std::__1::less&lt;int&gt;::operator()(int const&amp;, int const&amp;) const [inlined]:__functional_base">
+      </ContextState>
+      <ContextState
+         contextName = "main:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "c.vec_1">
+            </PersistentString>
+            <PersistentString
+               value = "c.vec_2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Car::Sub_list(int, int, int, int):Car.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "Path[state_old][vec_1[r].back().des][0]">
+            </PersistentString>
+            <PersistentString
+               value = "vec_1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
