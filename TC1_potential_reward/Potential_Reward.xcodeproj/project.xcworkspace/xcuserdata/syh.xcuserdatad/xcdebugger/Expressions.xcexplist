@@ -6,7 +6,7 @@
          contextName = "Car::Add(int):Car.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "sum">
+               value = "vec_2">
             </PersistentString>
             <PersistentString
                value = "COUNT">
@@ -15,16 +15,16 @@
                value = "car_size">
             </PersistentString>
             <PersistentString
-               value = "num_1">
+               value = "vec_1">
             </PersistentString>
             <PersistentString
-               value = "Path">
+               value = "num_1">
             </PersistentString>
             <PersistentString
                value = "Path[temp_start][temp_back][i]">
             </PersistentString>
             <PersistentString
-               value = "vec_1">
+               value = "Path">
             </PersistentString>
             <PersistentString
                value = "num_3">
@@ -33,7 +33,7 @@
                value = "num_2">
             </PersistentString>
             <PersistentString
-               value = "vec_2">
+               value = "sum">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -79,6 +79,9 @@
             </PersistentString>
             <PersistentString
                value = "vec_1">
+            </PersistentString>
+            <PersistentString
+               value = "vec_2">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

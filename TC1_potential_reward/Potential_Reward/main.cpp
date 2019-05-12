@@ -42,6 +42,7 @@ int main(int argc, const char * argv[]) {
     while(c.getCar_size())
     {
         c.Normal_Setting(minute);
+        c.RL_Setting(minute);
         c.Sub();
         minute++;
     }

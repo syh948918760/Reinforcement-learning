@@ -201,8 +201,8 @@ void Car::Sub(){
             {
                 //如果到达终点,退出list
                 if((*it).des==final_point[i]){
-                    cout<<it->source<<"->"<<final_point[i]<<"OUT!"<<endl;
-                    vec_1[i].erase(it);
+                    cout<<it->source<<"->"<<final_point[i]<<"  OUT!"<<endl;
+                    it=vec_1[i].erase(it);
                 }
                 //存在flag=1 且下一条路为
                 else if((*it).flag==1)
@@ -340,7 +340,6 @@ void Car::Sub(){
                 //随机从i左转挑选sub辆车从排队车辆中离开
                 
                 //考虑如何在一秒内多次进入的
-            
             }
             if(state[i][j]>0&&j==1)     //右\直走开放
             {
@@ -407,12 +406,12 @@ void Car::Sub_list(int r,int max,int num,int flag)
                 }
                 TransitionNum[temp]++;
             }
-//            ??
-//            if(state_new==0||state_old==0)
-//            {
-//                num--;
-//                continue;
-//            }
+//           之前放入vec_1[0],为了下标对其,这里做预防处理
+            if(state_new==0||state_old==0)
+            {
+                num--;
+                continue;
+            }
             cout<<state_old<<"->"<<state_new<<endl;
            // cout<<vec_1[r].size()<<endl;
             vec_1[r].pop_back();
@@ -447,13 +446,11 @@ void Car::Sub_list(int r,int max,int num,int flag)
                 }
                 TransitionNum[temp]++;
             }
-            
-
-//            if(state_new==0||state_old==0)
-//            {
-//                num--;
-//                continue;
-//            }
+            if(state_new==0||state_old==0)
+            {
+                num--;
+                continue;
+            }
             cout<<state_old<<"->"<<state_new<<endl;
             //cout<<vec_2[r].size()<<endl;
             vec_2[r].pop_back();
@@ -489,9 +486,6 @@ void Car::Normal_Setting(int n){
 }
 
 
-void Car::RL_Setting(int n){
-    //根据当前P/Q/V表计算最优开关方式
-}
 
 int Car::getCar_size(){
     int sum=0;

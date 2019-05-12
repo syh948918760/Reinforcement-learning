@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D613E9421A3005E005CBA3D /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D613E9221A3005E005CBA3D /* Car.cpp */; };
 		0D613E9621A30152005CBA3D /* Road.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D613E9521A30152005CBA3D /* Road.cpp */; };
+		0D7A8FE122884E09002A1B8B /* RL_setting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A8FE022884E09002A1B8B /* RL_setting.cpp */; };
 		0DBD201F21A2F9FF00FC3AB2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD201E21A2F9FF00FC3AB2 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		0D613E9321A3005E005CBA3D /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		0D613E9521A30152005CBA3D /* Road.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Road.cpp; sourceTree = "<group>"; };
 		0D613E9821A30333005CBA3D /* TL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TL.h; sourceTree = "<group>"; };
+		0D7A8FE022884E09002A1B8B /* RL_setting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RL_setting.cpp; sourceTree = "<group>"; };
 		0DBD201B21A2F9FF00FC3AB2 /* Potential_Reward */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Potential_Reward; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBD201E21A2F9FF00FC3AB2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0DF35B6921A2FA21002DD0CB /* Cox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cox.h; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				0D613E9521A30152005CBA3D /* Road.cpp */,
 				0DF35B6921A2FA21002DD0CB /* Cox.h */,
 				0D613E9321A3005E005CBA3D /* Car.h */,
+				0D7A8FE022884E09002A1B8B /* RL_setting.cpp */,
 				0D613E9221A3005E005CBA3D /* Car.cpp */,
 				0D613E9821A30333005CBA3D /* TL.h */,
 			);
@@ -134,6 +137,7 @@
 			files = (
 				0D613E9621A30152005CBA3D /* Road.cpp in Sources */,
 				0D613E9421A3005E005CBA3D /* Car.cpp in Sources */,
+				0D7A8FE122884E09002A1B8B /* RL_setting.cpp in Sources */,
 				0DBD201F21A2F9FF00FC3AB2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
